@@ -54,6 +54,23 @@ Either way, you'll get fully native apps with [shared business logic](https://de
 无论哪种方式，通过使用C#和.NET框架来共享业务逻辑你将会获得完全的原生应用。
 
 ## Xamarin.Forms Developer Guides ##
+## Xamarin.Forms开发者指南 ##
+The documents in this section show you how to build cross-platform apps using Xamarin.Forms.
+
+本章下面的内容将向你展示如何使用Xamarin.Forms构建跨平台的应用。
+
+### [Getting Started](https://developer.xamarin.com/guides/xamarin-forms/getting-started) ###
+### 开始入门 ###
+This document introduces the basics of Xamarin.Forms development and covers creating and running your first application, and extending the application to include multiple screens.
+
+这个文档介绍Xamarin.Forms基础开发，包括创建和运行你的第一个程序，并扩展这个程序以包含多种屏幕。
+
+### [Xamarin.Forms Controls Reference](https://developer.xamarin.com/guides/xamarin-forms/controls/) ###
+### Xamarin.Forms 控件参考 ###
+This document is a quick reference to the UI views that make up the Xamarin.Forms framework, such as Pages, Layouts, Views and Cells.
+
+
+
 
 
 
