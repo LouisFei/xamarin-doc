@@ -17,3 +17,10 @@ Creating Mobile Apps with Xamarin.Forms is [available as a free download](https:
 
 Check out [Xamarin.Forms running on Windows!](https://developer.xamarin.com/guides/xamarin-forms/platform-features/windows/) Add projects that run on Windows 8.1, Windows Phone 8.1, and the Universal Windows Platform to your existing Xamarin.Forms solutions.
 
+## Is Xamarin.Forms right for your project? ##
+## Xamarin.Forms适合你的项目吗？ ##
+Xamarin provides two ways to build great, native apps. Xamarin.Forms maximizes code sharing, while Xamarin.iOS and Xamarin.Android provide direct access to platform-specific APIs.
+
+Xamarin提供了两种方式来构建很棒的原生的应用。Xamarin.Forms支持最大化的代码共享，然而Xamarin.iOS和Xamarin.Android只支持直接访问具体平台的API（应用程序接口）。
+
+
