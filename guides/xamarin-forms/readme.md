@@ -1,0 +1,3 @@
+# Xamarin.Forms #
+### Cross-Platform User Interfaces with Xamarin.Forms ###
+Xamarin.Forms is a cross-platform UI toolkit that allows developers to easily create native user interface layouts that can be shared across Android, iOS, and Windows Phone. This section contains the introduction to Xamarin.Forms and our guides to help you build Xamarin.Forms apps. You can also learn more about its capabilities, try our samples, and browse the API documentation.
