@@ -41,5 +41,19 @@ Xamarin提供了两种方式来构建很棒的原生的应用。Xamarin.Forms支
 ### Xamarin.iOS & Xamarin.Android are best for ###
 ### Xamarin.iOS和Xamarin.Android适用于： ###
 * Apps that require specialized interactions
+* 需要特殊交互的应用
+* Apps with highly polished design
+* 高品质设计的应用
+* Apps that use many platform-specific APIs
+* 使用了许多特殊平台API的应用
+* Apps where custom UI is more important than code sharing
+* 自定义界面的要求高于代码共享的应用
+
+Either way, you'll get fully native apps with [shared business logic](https://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/) using C# and the .NET framework.
+
+无论哪种方式，通过使用C#和.NET框架来共享业务逻辑你将会获得完全的原生应用。
+
+
+
 
 
