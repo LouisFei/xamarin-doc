@@ -53,6 +53,7 @@ Either way, you'll get fully native apps with [shared business logic](https://de
 
 无论哪种方式，通过使用C#和.NET框架来共享业务逻辑你将会获得完全的原生应用。
 
+## Xamarin.Forms Developer Guides ##
 
 
 
