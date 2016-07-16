@@ -24,4 +24,18 @@ Xamarin provides two ways to build great, native apps. Xamarin.Forms maximizes c
 
 Xamarin提供了两种方式来构建很棒的原生的应用。Xamarin.Forms支持最大化的代码共享，然而Xamarin.iOS和Xamarin.Android只支持直接访问具体平台的API（应用程序接口）。
 
+### Xamarin.Forms is best for: ###
+![](https://developer.xamarin.com/guides/xamarin-forms/Images/approach-xamarin-forms.svg)
+
+* Data entry apps
+* 数据录入应用
+* Prototypes and proofs-of-concept
+* 原型设计和概念验证
+* Apps that require little platform-specific functionality
+* 仅对具体平台有少量功能依赖的应用
+* Apps where code sharing is more important than custom UI
+* 对代码共享代码复用要求高，自定义界面要求低的应用
+
+
+
 
