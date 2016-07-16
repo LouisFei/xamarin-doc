@@ -67,7 +67,28 @@ This document introduces the basics of Xamarin.Forms development and covers crea
 
 ### [Xamarin.Forms Controls Reference](https://developer.xamarin.com/guides/xamarin-forms/controls/) ###
 ### Xamarin.Forms 控件参考 ###
-This document is a quick reference to the UI views that make up the Xamarin.Forms framework, such as Pages, Layouts, Views and Cells.
+This document is a quick reference to the UI views that make up the Xamarin.Forms framework, such as [Pages](https://developer.xamarin.com/guides/xamarin-forms/controls/Pages/), [Layouts](https://developer.xamarin.com/guides/xamarin-forms/controls/layouts/), [Views](https://developer.xamarin.com/guides/xamarin-forms/controls/views/) and [Cells](https://developer.xamarin.com/guides/xamarin-forms/controls/cells/).
+
+这个文档是一个快速的用户界面视图参考，它是Xamarin.Forms框架的组成部分，例如页面，布局，视图，和单元格。
+
+### [XMAL](https://developer.xamarin.com/guides/xamarin-forms/xaml/) ###
+XMAL is a declarative markup language that can be used to define user interfaces. The user interface is defined in an XML file using the XMAL syntax, while runtime behavior is defined in a separate code-behind file.
+
+XMAL是一种标识定义语言，它能被用于定义用户界面。 用户界面使用XMAL语法被定义在XML文件中，而运行时行为被定义在独立的代码（隐藏/后置）文件中。
+
+### [User Interface](https://developer.xamarin.com/guides/xamarin-forms/user-interface/) ###
+Working with Xamarin.Forms user interface controls like ListView, TableView, and WebView.
+
+Xamarin.Forms的用户界面控件，有列表视图，表格视图，和网页视图。
+
+### [Templates](https://developer.xamarin.com/guides/xamarin-forms/templates/) ###
+Control templates provide the ability to easily theme and re-theme application pages at runtime, while data templates provide the ability to define the presentation of data on supported controls.
+
+控制模板提供了在运行时很容易地设置应用程序页的主题和更换主题的能力，数据模板提供了定义数据展示，在支持的控件上。
+
+
+
+
 
 
 
