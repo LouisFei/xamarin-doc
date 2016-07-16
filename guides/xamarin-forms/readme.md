@@ -7,6 +7,7 @@ Xamarin.Forms is a cross-platform UI toolkit that allows developers to easily cr
 Xamarin.Forms是一个跨平台UI工具包，她能让开发人员非常容易的创建出可以在Android,iOS和Windows Phone平台共享的用户界面布局。本章将介绍Xamarin.Forms，以及帮助你构建Xamarin.Forms应用。你同时还能学到更多的Xamarin.Forms技术，尝试一下我们的示例，浏览一下我们的API文档吧。
 
 ## Creating Mobile Apps with Xamarin.Forms ##
+## 使用Xamarin.Forms创建移动应用 ##
 ![](https://developer.xamarin.com/guides/xamarin-forms/Images/Cover-Preview-thumb.png)
 
 The first edition of Charles Petzold's book
@@ -25,6 +26,7 @@ Xamarin provides two ways to build great, native apps. Xamarin.Forms maximizes c
 Xamarin提供了两种方式来构建很棒的原生的应用。Xamarin.Forms支持最大化的代码共享，然而Xamarin.iOS和Xamarin.Android只支持直接访问具体平台的API（应用程序接口）。
 
 ### Xamarin.Forms is best for: ###
+### Xamarin.Forms适用于： ###
 ![](https://developer.xamarin.com/guides/xamarin-forms/Images/approach-xamarin-forms.svg)
 
 * Data entry apps
@@ -36,6 +38,8 @@ Xamarin提供了两种方式来构建很棒的原生的应用。Xamarin.Forms支
 * Apps where code sharing is more important than custom UI
 * 对代码共享代码复用要求高，自定义界面要求低的应用
 
-
+### Xamarin.iOS & Xamarin.Android are best for ###
+### Xamarin.iOS和Xamarin.Android适用于： ###
+* Apps that require specialized interactions
 
 
