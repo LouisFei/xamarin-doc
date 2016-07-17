@@ -93,7 +93,57 @@ User interface controls can be easily extended without subclassing by using beha
 
 用户界面控件可以被轻易的扩展，不是通过子类化，而是通过行为来添加新功能。
 
+### [Platform Features](https://developer.xamarin.com/guides/xamarin-forms/platform-features/) ###
+### 平台特性 ###
+Taking advantage of platform-specific features with Xamarin.Forms, such as styling iOS application and incorporating the latest iOS 9 features, and updating Android apps to use Material Design.
 
+利用Xamarin.Forms的平台特性，例如iOS样式的应用程序，包括最新的iOS 9特性，使用重要的设计更新Android应用。
+
+### [Working with...](https://developer.xamarin.com/guides/xamarin-forms/working-with/) ###
+### 与哪些一起工作 ###
+Working with different aspects of the Xamarin.Forms APIs including [images](https://developer.xamarin.com/guides/xamarin-forms/working-with/images/), [fonts](https://developer.xamarin.com/guides/xamarin-forms/working-with/fonts/) and [files](https://developer.xamarin.com/guides/xamarin-forms/working-with/files/).
+
+与Xamarin.Forms的许多不同方面的APIs一起工作，包括图片API，字体API和文件API。
+
+### [Effects](https://developer.xamarin.com/guides/xamarin-forms/effects/) ###
+Effects allow the native controls on each platform to be customized, and are typically used for small styling changes.
+
+效果允许每个平台的原生控件被定制，被用于较小的样式改变。
+
+### [Customizing Controls for Each Platform](https://developer.xamarin.com/guides/xamarin-forms/custom-renderer/) ###
+### 为每个平台定制控件 ###
+Custom Renders let developers 'override' the default rendering of Xamarin.Forms controls to customize their appearance and behavior on each platform (using native SDKs if desired).
+
+自定义渲染器让开发者重写Xamarin.Forms控件默认的渲染方式，以便自定义他们在每个平台上的外观和行为（使用原生SDKs如果需要）。
+
+### [Accessing Native Features via the DependencyService](https://developer.xamarin.com/guides/xamarin-forms/dependency-service/) ###
+### 通过依赖服务访问原生特性 ###
+The DependencyService provides a simple locator so that you can code to Interfaces in your shared code and provide platform-specific implementations that are automatically resolved, making it easy to reference platform-specific functionality in Xamarin.Forms.
+
+依赖服务提供一个简单的定位器，以便你能在你的共享代码里编写接口，在每个具体平台提供具体实现能被自动执行到，这个机制让我们在Xamarin.Forms中调用具体平台上的功能非常简单。
+
+### [Publish and Subscribe with MessagingCenter](https://developer.xamarin.com/guides/xamarin-forms/messaging-center/) ###
+Xamarin.Forms MessagingCenter enables view models and other components to communicate with without having to know anything about each other besides a simple Message Contract.
+
+### Web Services ###
+
+
+### Advanced Topics ###
+
+
+### Deployment, Testing, and Metrics ###
+
+
+### Troubleshooting ###
+
+
+### Xamarin.Forms XAML Basics ###
+
+
+### API Documentation ###
+
+
+### Samples ###
 
 
 
