@@ -82,9 +82,17 @@ Working with Xamarin.Forms user interface controls like ListView, TableView, and
 Xamarin.Forms的用户界面控件，有列表视图，表格视图，和网页视图。
 
 ### [Templates](https://developer.xamarin.com/guides/xamarin-forms/templates/) ###
+### 模板 ###
 Control templates provide the ability to easily theme and re-theme application pages at runtime, while data templates provide the ability to define the presentation of data on supported controls.
 
 控制模板提供了在运行时很容易地设置应用程序页的主题和更换主题的能力，数据模板提供了定义数据展示，在支持的控件上。
+
+### [Behaviors](https://developer.xamarin.com/guides/xamarin-forms/behaviors) ###
+### 行为 ###
+User interface controls can be easily extended without subclassing by using behaviors to add functionality.
+
+用户界面控件可以被轻易的扩展，不是通过子类化，而是通过行为来添加新功能。
+
 
 
 
