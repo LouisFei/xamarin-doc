@@ -123,27 +123,48 @@ The DependencyService provides a simple locator so that you can code to Interfac
 依赖服务提供一个简单的定位器，以便你能在你的共享代码里编写接口，在每个具体平台提供具体实现能被自动执行到，这个机制让我们在Xamarin.Forms中调用具体平台上的功能非常简单。
 
 ### [Publish and Subscribe with MessagingCenter](https://developer.xamarin.com/guides/xamarin-forms/messaging-center/) ###
+### 消息中心的发布和订阅 ###
 Xamarin.Forms MessagingCenter enables view models and other components to communicate with without having to know anything about each other besides a simple Message Contract.
 
-### Web Services ###
+Xamarin.Forms消息中心能让视图模型和其它组件进行通讯，而且彼此不需要知道任何事情，只需要一个简单的消息约定。
 
+### [Web Services](https://developer.xamarin.com/guides/xamarin-forms/web-services) ###
+Xamarin.Forms applications can consume web services implemented using a wide variety of technologies, and this guide will examine how to do this.
 
-### Advanced Topics ###
+Xamarin.Forms应用程序能够使用多种技术来使用Web服务来实现功能，这个指南将告诉你如何去做。
 
+### [Advanced Topics](https://developer.xamarin.com/guides/xamarin-forms/advanced/) ###
+### 高级主题 ###
+The built-in .NET localization framework can be used to build cross-platform multilingual applications with Xamarin.Forms.
+
+内置的.NET本地化框架和Xamarin.Forms能够用来构建跨平台的多语言应用程序。
 
 ### Deployment, Testing, and Metrics ###
+### 部署，测试，和度量 ###
+Stabilize your Xamarin.Forms app by improving its performance, and by writing UI tests on run in the cloud on hundreds of devices.
 
+使用你的Xamarin.Forms应用稳定，提高他的性能，编写运行在拥有数百种设备的云端上的UI测试。
 
-### Troubleshooting ###
+### [Troubleshooting](https://developer.xamarin.com/guides/xamarin-forms/troubleshooting/) ###
+### 故障解决 ###
+Common problems and how to resolve them.
 
+通常的问题，以及解决方法。
 
-### Xamarin.Forms XAML Basics ###
+### [Xamarin.Forms XAML Basics](https://developer.xamarin.com/guides/xamarin-forms/user-interface/xaml-basics/) ###
+### Xamarin.Forms XAML 基础 ###
+XAML——the eXtensible Application Markup Language——allows developers to define user interfaces in Xamarin.Forms application using markup rather than code. XAML is never required in a Xamarin.Forms program but it is often more succinct than equivalent code, more visually coherent, and potentially toolable.  XAML is particularly well suited for use with the popular MVVM (Model-View-ViewModel) application architecture: XAML defines the View that is linked to ViewModel code through XAML-based data bindings.
 
+XAML——可扩展的程序标记语言——允许开发者在Xamarin.Forms应用程序里使用标记定义用户界面，而不是代码。XAML在Xamarin.Forms编程中不是必需的，但它经常比与其等价的代码更简洁，更形象清晰，是一个非常棒的替代工具。XAML非常方便用于流行的MVVM程序构架：XAML定义视图，视图与视图模型代码通过基于XAML的数据绑定语法来进行连接。
 
-### API Documentation ###
+### [API Documentation](https://developer.xamarin.com/api/namespace/Xamarin.Forms/) ###
+### API文档 ###
+Browse the [API documentation for Xamarin.Forms](https://developer.xamarin.com/api/namespace/Xamarin.Forms/).
 
+### [Samples](https://developer.xamarin.com/samples/xamarin-forms/all/) ###
+### 示例 ###
+Check out the [sample gallery for Xamarin.Forms](https://developer.xamarin.com/samples/xamarin-forms/all/) or clone directly form [Github](https://github.com/xamarin/xamarin-forms-samples).
 
-### Samples ###
 
 
 
