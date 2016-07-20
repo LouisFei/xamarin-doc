@@ -8,7 +8,7 @@ Xamarin.Forms has several layouts for organizing on-screen content. StackLayout,
 ## Navigation ##
 Xamarin.Forms provides a number of different page navigation experiences, depending upon the Page type being used.
 
-##ListView ##
+## ListView ##
 Xamarin.Forms provides a list view control to display scrolling rows of data. Some new features were added to ListView in Xamarin.Forms 1.3 and 1.4, including context actions, HasUnevenRows automatic sizing, separator customization, pull-to-refresh, and headers and footers.
 
 ## Maps ##
