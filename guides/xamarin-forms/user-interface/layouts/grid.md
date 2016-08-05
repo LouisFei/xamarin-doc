@@ -8,9 +8,14 @@
 ![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/grid/Images/Layouts-sml.png)
 
 This article will cover:
+
+本文包含：
 - Purpose – common uses for Grid.
+- 目的 -Grid常见用途.
 - Usage – how to use Grid to achieve your desired design.
+- 使用 - 如何使用Grid满足你的期望的设计。
   - Rows and Columns – specify rows and columns for the Grid.
+  - 行和列 - 
   - Placing Views – add views to the grid at specific rows and columns.
   - Spacing – configure the spaces between rows and columns.
   - Spans – configure elements to span across multiple rows or columns.
@@ -27,16 +32,25 @@ This article will cover:
 # Usage #
 Unlike traditional tables, Grid does not infer the number and sizes of rows and columns from the content. Instead, Grid has a RowCollection and HeightCollection. These collections hold definitions of how rows and columns will be laid out. Views are added to Grid with specified row and column indices, which identify which row and column a view should be placed in.
 
+与传统的表格不同,Grid不会根据其内容推断行和列的数量和大小。相反，Grid有行集合和列集合。这些集合定义了行和列将如何被布局。视图添加到Grid并且明确指定了行和列索引，这些索引用于明确一个视图应该被放置在哪一行和哪一列。
+
 # Rows and Columns #
 Row and column information is stored in Grid's RowDefinitions & ColumnDefinitions properties, which are each collections of RowDefinitions and ColumnDefinitions, respectively. Row has a single property, Height, and Column has a single property, Width. The options for height and width are as follows:
 
+行和列信息存储在Grid的RowDefinitions和ColumnDefinitions属性中，分别是每个RowDefinitions集合和ColumnDefinitions集合。行有一个属性“高度”，列有一个属性”宽度“。高度和宽度的选项如下:
+
 - Auto – automatically sizes to fit content in the row or column. Specified as GridUnitType.Auto in C# or as Auto in XAML.
+- Auto - 自动大小以适合行或列的内容。在c#指定为GridUnitType.Auto或在XAML指定为Auto。
 - Proportional(*) – sizes columns and rows as a proportion of the remaining space. Specified as a value and GridUnitType.Star in C# and as #* in XAML, with # being your desired value. Specifying one row/column with * will cause it to fill the available space.
+- Proportional(*)——列和行的尺寸使用剩余空间的比例描述。在C#中使用具体的数字加GridUnitType.Star，和在XAML中使用你希望的数字加*星号。使用*星号指定一个行或列，将导致它填补所有可用空间。
 - Absolute – sizes columns and rows with specific, fixed height and width values. Specified as a value and GridUnitType.Absolute in C# and as # in XAML, with # being your desired value.
+- Absolute——用具体数值指定列和行的尺寸，固定高度和宽度值。在C#中使用具体的值和GridUnitType.Absolute，和在XAML中直接使用你想要的数值。
 
 > Note: The width values for columns are set as Auto by default in Xamarin.Forms, which means that the width is determined from the size of the children. Note that this differs from the implementation of XAML on Microsoft platforms, where the default width is *, which will fill the available space.
 
 Consider an app that needs three rows and two columns. The bottom row needs to be exactly 200px tall and the top row needs to be twice as tall as the middle row. The left column needs to be wide enough to fit the content and the right column needs to fill the remaining space.
+
+考虑一个应用程序需要三行和两列。底下一行需要200px高，第一行需要两倍高的中间行。左列需要足够大,能够满足内容和右列需要填补剩余的空间。
 
 ### In XAML: ###
 ``` xml
@@ -63,9 +77,15 @@ grid.ColumnDefinitions.Add (new ColumnDefinition{ Width = new GridLength (200) }
 ```
 
 # Placing Views in a Grid #
+# 把视图旋转到Grid #
 To place views in a Grid you'll need to add them as children to the gird, then specify which row and column they belong in.
 
+为了将视图放置到Grid中，你需要把它们当作孩子元素添加到Grid中，然后指定他们所属的行和列。
+
+
 In XAML, use Grid.Row and Grid.Column on each individual view to specify placement. Note that Grid.Row and Grid.Column specify location based on the zero-based lists of rows and columns. This means that in a 4x4 grid, the top left cell is (0,0) and the bottom right cell is (3,3).
+
+在XAML中,使用每个视图的Grid.Row和Grid.Column属性来具体指定位置。注意Grid.Row和Grid.Column的具体定位是基于从零开始的行和列的列表。这意味着在4x4的网络Grid中，左上角单元格是(0,0)和右下角单元格(3、3)。
 
 The Grid shown below contains four cells:
 ![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/grid/Images/label_grid.png)
