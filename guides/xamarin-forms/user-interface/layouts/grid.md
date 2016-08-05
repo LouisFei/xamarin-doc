@@ -2,6 +2,9 @@
 ## Present views in grids. ##
 > Grid supports arranging views into rows and columns. Rows and columns can be set to have proportional sizes or absolute sizes. The Grid layout should not be confused with traditional tables and is not intended to present tabular data. Grid does not have the concept of row, column or cell formatting. Unlike HTML tables, Grid is purely intended for laying out content.
 
+> Grid支持安排视图到行和列中。行和列可以被设置比例尺寸和绝对尺寸。Grid布局不要与传统表格相混淆，它的目的不是展示表格数据。Grid没有行和列，以及单元格格式化的概念。不像Html的表格，Grid是纯粹用来布局内容的。
+
+
 ![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/grid/Images/Layouts-sml.png)
 
 This article will cover:
