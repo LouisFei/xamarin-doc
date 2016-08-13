@@ -60,28 +60,50 @@ Note in the following screenshot, the anchor of the box is a white dot. Notice t
 ## Specifying Values ##
 Views within an AbsoluteLayout are positioned using four values:
 
+绝对布局中的视图使用四个值来进行定位:
+
 - X – the x (horizontal) position of the view's anchor
+- X坐标
 - Y – the y (vertical) position of the view's anchor
+- Y坐标
 - Width – the width of the view
+- 宽度
 - Height – the height of the view
+- 高度
 
 Each of those values can be set as a proportional value or an absolute value.
 
+这些值可以设置为一个比例值或一个绝对的价值。
+
 Values are specified as a combination of bounds and a flag. LayoutBounds is a Rectangle consisting of four values: x, y, width, height.
+
+值被指定为边界和标志的组合。LayoutBounds组成的一个矩形四个值:x轴坐标,y轴坐标,宽度、高度。
 
 ## AbsoluteLayoutFlags ##
 AbsoluteLayoutFlags specifies how values will be interpreted and has the following predefined options:
 
+AbsoluteLayoutFlags指定值将如何解释，具有以下预定义的选项:
+
 - None – interprets all values as absolute. This is the default value if no layout flags are specified.
+- 默认值，把所有值用于绝对布局。
 - All – interprets all values as proportional.
+- 解释所有值成比例。
 - WidthProportional – interprets the Width value as proportional and all other values as absolute.
+- 宽度值为按比例，其它值为绝对。
 - HeightProportional – interprets only the height value as proportional with all other values absolute.
+- 高度值为按比例，其它值为绝对。
 - XProportional – interprets the X value as proportional, while treating all other values as absolute.
+- X坐标是按比例，其它值为绝对。
 - YProportional – interprets the Y value as proportional, while treating all other values as absolute.
+- Y坐标是按比例，其它值为绝对。
 - PositionProportional – interprets the X and Y values as proportional, while the size values are interpreted as absolute.
+- X和Y坐标是按比例，其它是绝对。
 - SizeProportional – interprets the Width and Height values as proportional while the position values are absolute.
+- 宽度和高度是按比例，……
 
 In XAML, bounds and flags are set as part of the definition of views within the layout, using the AbsoluteLayout.LayoutBounds property. Bounds are set as a comma-separated list of values, X, Y, Width, and Height, in that order. Flags are also specified in the declaration of views in the layout using the AbsoluteLayout.LayoutFlags property. Note that flags can be combined in XAML using a comma-separated list. Consider the following example:
+
+在XAML,界限和标志作为设置，是属于布局视图定义的一部分,使用AbsoluteLayout.LayoutBounds属性。边界设置为一个以逗号分隔的值，以X,Y,宽度,高度这样的顺序。Flags也在声明中指定使用AbsoluteLayout.LayoutFlags属性。注意Flags标志可以组合在XAML使用逗号分隔的列表。考虑下面的例子:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -111,11 +133,18 @@ Title="Absolute Layout Exploration">
 
 Note the following:
 
+注意:
+
 - The label in the center is positioned using absolute size and position values. Because of that, it appears centered on iPhone 4S and lower, but not centered on larger devices.
+- 中心Label标签是使用绝对的尺寸和位置值进行定位的。因为这样,在iPhone 4s以及低版本中它似乎集中在中间，但在更大的设备上就不在中间了。
 - The text at the bottom of the layout is positioned using proportional size and position values. It will always appear at the bottom center of the layout, but its size will grow with larger layout sizes.
+- 底部的文本的布局定位使用比例大小和位置值。它总是出现在底部中心的布局,但布局尺寸将会随着大布局尺寸而增长。
 - Three colored BoxViews are positioned at the top, left, and right edges of the screen using proportional position and absolute size.
+- 三个彩色BoxViews定位在屏幕的顶部,左,和右，使用比例位置和绝对大小。
 
 The following achieves the same layout in C#:
+
+以下达到相同的布局在c#中:
 ```c#
 public class AbsoluteLayoutExplorationCode : ContentPage
 {
@@ -159,7 +188,10 @@ public class AbsoluteLayoutExplorationCode : ContentPage
 ```
 
 ## Proportional Values ##
+## 比例值 ##
 Proportional values define a relationship between a layout and a view. This relationship defines a child view's position or scale value as a proportion of the corresponding value of the parent layout. These values are expressed as doubles with values between 0 and 1.
+
+比例值定义一个布局和视图之间的关系。这种关系定义了子视图的位置或缩放值作为父布局的对应值的比例分配。这些值表示为双精度的值在0和1之间。
 
 Proportional values are used to position and size views within the layout. So, when a view's width is set as a proportion, the resultant width value is the proportion multiplied by the AbsoluteLayout's width. For example, with an AbsoluteLayout of width 500 and a view set to have a proportional width of .5, the rendered width of the view will be 250 (500 x .5).
 
