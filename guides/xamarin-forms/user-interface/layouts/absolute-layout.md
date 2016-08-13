@@ -246,7 +246,7 @@ Title="AbsoluteLayout">
 ```
 
 The above code results in the following layout:
-![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/absolute-layout/Images/abs.png
+![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/absolute-layout/Images/abs.png)
 
 Note that, due to a difference in how buttons are rendered by Windows Phone, some of the circles have been replaced by boxviews in the Windows Phone screenshot.
 
