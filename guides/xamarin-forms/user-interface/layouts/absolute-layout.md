@@ -195,7 +195,11 @@ Proportional values define a relationship between a layout and a view. This rela
 
 Proportional values are used to position and size views within the layout. So, when a view's width is set as a proportion, the resultant width value is the proportion multiplied by the AbsoluteLayout's width. For example, with an AbsoluteLayout of width 500 and a view set to have a proportional width of .5, the rendered width of the view will be 250 (500 x .5).
 
+比例值用于布局中视图的位置和大小。所以,当一个视图的宽度设置为比例,合成宽度值比例乘以AbsoluteLayout的宽度。例如,500年的AbsoluteLayout宽度和视图设置为有一个宽度成比例.5、视图的显示宽度是250(500x.5)。
+
 To use proportional values, set LayoutBounds using (x, y) proportions and proportional sizes, then set LayoutFlags to All.
+
+使用比例值,设置LayoutBounds使用(x,y)比例和比例大小,然后设置LayoutFlags为All。
 
 In XAML:
 ```xml
@@ -211,11 +215,18 @@ AbsoluteLayout.SetLayoutFlags(label, AbsoluteLayoutFlags.All);
 ```
 
 ## Absolute Values ##
+## 绝对值 ##
 Absolute values explicitly define where views should be positioned within the layout. Unlike proportional values, absolute values are capable of positioning and sizing a view that does not fit within the bounds of the layout.
+
+绝对值明确定义视图在布局应该如何定位。不像比例值,绝对值的定位和大小不会去动态适应布局的边界。
 
 Using absolute values for positioning can be dangerous when the size of the layout is not known. When using absolute positions, an element in the center of the screen at one size could be offset at any other size. It is important to test your app across the various screen sizes of your supported devices.
 
+当布局的尺寸大小不清楚的时候，使用绝对值定位可能是危险的。当使用绝对位置时，一个在屏幕的中心的元素的尺寸可能出现尺寸偏移。在您支持的各种屏幕尺寸的设备上测试您的应用程序是很重要的。
+
 To use absolute layout values, set LayoutBounds using (x, y) coordinates and explicit sizes, then set LayoutFlags to None.
+
+使用绝对布局值,设置LayoutBounds使用(x,y)坐标和明确的尺寸,然后设置LayoutFlags值为None。
 
 In XAML:
 ```xml
@@ -229,7 +240,10 @@ AbsoluteLayout.SetLayoutBounds(label, new Rectangle(115,150,100,100));
 ```
 
 ## Exploring a Complex Layout ##
+## 探索一个复杂的布局 ##
 Each of the layouts have strengths and weaknesses for creating particular layouts. Throughout this series of layout articles, a sample app has been created with the same page layout implemented using three different layouts.
+
+每个布局都有优缺点，在创建特定的布局时。在本系列的布局文章中,创建了一个示例应用程序相同的页面布局使用三种不同的布局实现的。
 
 Consider the following XAML:
 ```xml
@@ -299,3 +313,6 @@ The above code results in the following layout:
 Note that, due to a difference in how buttons are rendered by Windows Phone, some of the circles have been replaced by boxviews in the Windows Phone screenshot.
 
 Notice that AbsoluteLayouts are nested, because in some cases nesting layouts can be easier than presenting all elements within the same layout.
+
+注意AbsoluteLayouts是嵌套的,因为在某些情况下可以简单地嵌套布局呈现所有元素在相同的布局。
+
