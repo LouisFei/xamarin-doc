@@ -15,25 +15,41 @@ This article will cover:
 - Purpose – common uses for AbsoluteLayout.
 - Usage – how to use AbsoluteLayout to achieve your desired design.
     - Proportional Layouts – understand how proportional values work in an AbsoluteLayout.
+    - 按比例布局
     - Specifying Values – understand how proportional and absolute values are specified.
+    - 具体值
     - Proportional Values – understand how proportional values work.
+    - 比例值
     - Absolute Values – understand how absolute values work.
+    - 绝对值
 
 ## Purpose ##
 Because of the positioning model of AbsoluteLayout, the layout makes it relatively straightforward to position elements so that they are flush with any side of the layout, or centered. With proportional sizes and positions, elements in an AbsoluteLayout can scale automatically to any view size. For items where only the position but not the size should scale, absolute and proportional values can be mixed.
 
+由于绝对布局的定位模型,布局使其相对简单的元素位置,这样他们填充到边缘，或是居中。使用相对比例的尺寸和坐标,元素在绝对布局中可以自动扩展到任意大小。只有坐标位置而不是尺寸大小应该被缩放，绝对和相对比例值可以混合使用。
+
 AbsoluteLayout could be used anywhere elements need to be positioned within a view and is especially useful when aligning elements to edges.
+
+绝对布局可以使用任何元素需要被定位在一个视图和调整元素的边缘时尤其有用。
 
 ## Usage ##
 ### Proportional Layouts ###
 AbsoluteLayout has a unique anchor model whereby the anchor of the element is positioned relative to its element as the element is positioned relative to the layout when proportional positioning is used. When absolute positioning is used, the anchor is at (0,0) within the view. This has two important consequences:
 
+绝对布局有独特的锚模型即锚元素的位置相对于它的元素的元素的位置相对于布局比例定位时使用。当使用绝对定位时,锚在(0,0)在视图。这有两个重要的后果:
+
 - Elements cannot be positioned off screen using proportional values.
+- 元素不能使用比例值定位到屏幕外。
 - Elements can be reliably positioned along any side of the layout or in the center, regardless of the size of the layout or device.
+- 元素可以可靠地定位在任何一边的布局或中心,无论大小的布局或设备。
 
 AbsoluteLayout, like RelativeLayout, is able to position elements so that they overlap.
 
+绝对布局像相对布局一样,能够定位元素重叠。
+
 Note in the following screenshot, the anchor of the box is a white dot. Notice the relationship between the anchor and the box as it moves through the layout:
+
+注意在以下截图,盒子的锚是一个白色的点。注意锚和盒子之间的关系在整个布局:
 
 ![](https://developer.xamarin.com/guides/xamarin-forms/user-interface/layouts/absolute-layout/Images/anchor_start.png)
 
